@@ -1,0 +1,168 @@
+\hypertarget{class_o_e_invaders_1_1_library_1_1_missile}{}\section{O\+E\+Invaders.\+Library.\+Missile Class Reference}
+\label{class_o_e_invaders_1_1_library_1_1_missile}\index{OEInvaders.Library.Missile@{OEInvaders.Library.Missile}}
+
+
+Represents an actual missile.  
+
+
+Inheritance diagram for O\+E\+Invaders.\+Library.\+Missile\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_o_e_invaders_1_1_library_1_1_missile}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_missile_ae252a2f8992befb6c4bca4b11c40955b}{Missile}} (\mbox{\hyperlink{namespace_o_e_invaders_1_1_library_a54c0ac5ddd321d308d59e807a9a6d83b}{Missile\+Type}} type, Point point, \mbox{\hyperlink{namespace_o_e_invaders_1_1_library_abefe34068a8894fb3391a5f1e315edcd}{Missile\+Direction}} dir)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_missile}{Missile}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_missile_a20c94264f05e7eb7b8e72a07b1a849ea}{Set\+Position}} (double x, double y)
+\begin{DoxyCompactList}\small\item\em Sets the position of the missile by 2D values. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static readonly Random \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_missile_a97fb88bef6f6bc3bc8189f07852d6649}{Random\+Generator}} = new Random()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Bitmap\+Source \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_missile_a79a920739cfa1423f490667dfbeaedd8}{Image}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the image of the missile. \end{DoxyCompactList}\item 
+Point \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_missile_a064599651ab8720c3e4be406bb9e3484}{Position}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether the position of the missile. \end{DoxyCompactList}\item 
+Rect \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_missile_ab279292d3624bfd36b7c2475101b0896}{Bounds}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether the rectangle position of the missile. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_missile_adaba70cdbae983ee6c66451e195b94d3}{Exploded}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets a value indicating whether if the missile exploded. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_o_e_invaders_1_1_library_abefe34068a8894fb3391a5f1e315edcd}{Missile\+Direction}} \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_missile_a9ed22bd68e1049f6ca360e4e1b9c3306}{Missile\+Direction}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the direction of the missile. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_o_e_invaders_1_1_library_a54c0ac5ddd321d308d59e807a9a6d83b}{Missile\+Type}} \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_missile_ac008e96776e4db3baf5e28616882aa96}{Missile\+Type}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the type of the missile. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents an actual missile. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_missile_ae252a2f8992befb6c4bca4b11c40955b}\label{class_o_e_invaders_1_1_library_1_1_missile_ae252a2f8992befb6c4bca4b11c40955b}} 
+\index{OEInvaders.Library.Missile@{OEInvaders.Library.Missile}!Missile@{Missile}}
+\index{Missile@{Missile}!OEInvaders.Library.Missile@{OEInvaders.Library.Missile}}
+\subsubsection{\texorpdfstring{Missile()}{Missile()}}
+{\footnotesize\ttfamily O\+E\+Invaders.\+Library.\+Missile.\+Missile (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{namespace_o_e_invaders_1_1_library_a54c0ac5ddd321d308d59e807a9a6d83b}{Missile\+Type}}}]{type,  }\item[{Point}]{point,  }\item[{\mbox{\hyperlink{namespace_o_e_invaders_1_1_library_abefe34068a8894fb3391a5f1e315edcd}{Missile\+Direction}}}]{dir }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_missile}{Missile}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em type} & The type of the missile.\\
+\hline
+{\em point} & The starting position.\\
+\hline
+{\em dir} & The direction of the missile.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_missile_a20c94264f05e7eb7b8e72a07b1a849ea}\label{class_o_e_invaders_1_1_library_1_1_missile_a20c94264f05e7eb7b8e72a07b1a849ea}} 
+\index{OEInvaders.Library.Missile@{OEInvaders.Library.Missile}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!OEInvaders.Library.Missile@{OEInvaders.Library.Missile}}
+\subsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Library.\+Missile.\+Set\+Position (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})}
+
+
+
+Sets the position of the missile by 2D values. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The X coordinate.\\
+\hline
+{\em y} & The Y coordinate.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_o_e_invaders_1_1_library_1_1_i_entity_ae2cf61539ba662a6793fef01abcad2ef}{O\+E\+Invaders.\+Library.\+I\+Entity}}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_missile_a97fb88bef6f6bc3bc8189f07852d6649}\label{class_o_e_invaders_1_1_library_1_1_missile_a97fb88bef6f6bc3bc8189f07852d6649}} 
+\index{OEInvaders.Library.Missile@{OEInvaders.Library.Missile}!RandomGenerator@{RandomGenerator}}
+\index{RandomGenerator@{RandomGenerator}!OEInvaders.Library.Missile@{OEInvaders.Library.Missile}}
+\subsubsection{\texorpdfstring{RandomGenerator}{RandomGenerator}}
+{\footnotesize\ttfamily readonly Random O\+E\+Invaders.\+Library.\+Missile.\+Random\+Generator = new Random()\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_missile_ab279292d3624bfd36b7c2475101b0896}\label{class_o_e_invaders_1_1_library_1_1_missile_ab279292d3624bfd36b7c2475101b0896}} 
+\index{OEInvaders.Library.Missile@{OEInvaders.Library.Missile}!Bounds@{Bounds}}
+\index{Bounds@{Bounds}!OEInvaders.Library.Missile@{OEInvaders.Library.Missile}}
+\subsubsection{\texorpdfstring{Bounds}{Bounds}}
+{\footnotesize\ttfamily Rect O\+E\+Invaders.\+Library.\+Missile.\+Bounds\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets a value indicating whether the rectangle position of the missile. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_missile_adaba70cdbae983ee6c66451e195b94d3}\label{class_o_e_invaders_1_1_library_1_1_missile_adaba70cdbae983ee6c66451e195b94d3}} 
+\index{OEInvaders.Library.Missile@{OEInvaders.Library.Missile}!Exploded@{Exploded}}
+\index{Exploded@{Exploded}!OEInvaders.Library.Missile@{OEInvaders.Library.Missile}}
+\subsubsection{\texorpdfstring{Exploded}{Exploded}}
+{\footnotesize\ttfamily bool O\+E\+Invaders.\+Library.\+Missile.\+Exploded\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets a value indicating whether if the missile exploded. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_missile_a79a920739cfa1423f490667dfbeaedd8}\label{class_o_e_invaders_1_1_library_1_1_missile_a79a920739cfa1423f490667dfbeaedd8}} 
+\index{OEInvaders.Library.Missile@{OEInvaders.Library.Missile}!Image@{Image}}
+\index{Image@{Image}!OEInvaders.Library.Missile@{OEInvaders.Library.Missile}}
+\subsubsection{\texorpdfstring{Image}{Image}}
+{\footnotesize\ttfamily Bitmap\+Source O\+E\+Invaders.\+Library.\+Missile.\+Image\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the image of the missile. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_missile_a9ed22bd68e1049f6ca360e4e1b9c3306}\label{class_o_e_invaders_1_1_library_1_1_missile_a9ed22bd68e1049f6ca360e4e1b9c3306}} 
+\index{OEInvaders.Library.Missile@{OEInvaders.Library.Missile}!MissileDirection@{MissileDirection}}
+\index{MissileDirection@{MissileDirection}!OEInvaders.Library.Missile@{OEInvaders.Library.Missile}}
+\subsubsection{\texorpdfstring{MissileDirection}{MissileDirection}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_o_e_invaders_1_1_library_abefe34068a8894fb3391a5f1e315edcd}{Missile\+Direction}} O\+E\+Invaders.\+Library.\+Missile.\+Missile\+Direction\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the direction of the missile. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_missile_ac008e96776e4db3baf5e28616882aa96}\label{class_o_e_invaders_1_1_library_1_1_missile_ac008e96776e4db3baf5e28616882aa96}} 
+\index{OEInvaders.Library.Missile@{OEInvaders.Library.Missile}!MissileType@{MissileType}}
+\index{MissileType@{MissileType}!OEInvaders.Library.Missile@{OEInvaders.Library.Missile}}
+\subsubsection{\texorpdfstring{MissileType}{MissileType}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_o_e_invaders_1_1_library_a54c0ac5ddd321d308d59e807a9a6d83b}{Missile\+Type}} O\+E\+Invaders.\+Library.\+Missile.\+Missile\+Type\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the type of the missile. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_missile_a064599651ab8720c3e4be406bb9e3484}\label{class_o_e_invaders_1_1_library_1_1_missile_a064599651ab8720c3e4be406bb9e3484}} 
+\index{OEInvaders.Library.Missile@{OEInvaders.Library.Missile}!Position@{Position}}
+\index{Position@{Position}!OEInvaders.Library.Missile@{OEInvaders.Library.Missile}}
+\subsubsection{\texorpdfstring{Position}{Position}}
+{\footnotesize\ttfamily Point O\+E\+Invaders.\+Library.\+Missile.\+Position\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets a value indicating whether the position of the missile. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+D/\+Documents/\+Visual Studio 2015/\+Projects/\+O\+E\+N\+I\+K\+\_\+\+P\+R\+O\+G4\+\_\+2019\+\_\+1\+\_\+\+A\+S4\+D\+C\+D\+\_\+\+N\+E\+P\+T\+U\+N/\+O\+E\+Invaders.\+Library/\mbox{\hyperlink{_missile_8cs}{Missile.\+cs}}\end{DoxyCompactItemize}

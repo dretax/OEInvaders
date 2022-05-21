@@ -1,0 +1,304 @@
+\hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser}{}\section{O\+E\+Invaders.\+Library.\+Ini\+Parser Class Reference}
+\label{class_o_e_invaders_1_1_library_1_1_ini_parser}\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+
+
+Handles ini file.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a3356f9debddd4725729351af23441509}{Ini\+Parser}} (string ini\+Path)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser}{Ini\+Parser}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a65d6a0da20cd1d220a72584d79e7ad33}{Add\+Setting}} (string section\+Name, string setting\+Name)
+\begin{DoxyCompactList}\small\item\em Adds a setting. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a3bb2da99a04a530a7577fae8bc7ec786}{Add\+Setting}} (string section\+Name, string setting\+Name, string setting\+Value)
+\begin{DoxyCompactList}\small\item\em Adds a setting. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a6249600db795ab959effc30ad7a05dc7}{Count}} ()
+\begin{DoxyCompactList}\small\item\em Counts the sections. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a789776fe8a8eb9ba0f705a5f450799fd}{Delete\+Setting}} (string section\+Name, string setting\+Name)
+\begin{DoxyCompactList}\small\item\em Deletes data by key. \end{DoxyCompactList}\item 
+string \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a0d07d9af2cb34c65805965760f9da3b2}{Enum\+Section}} (string section\+Name)
+\begin{DoxyCompactList}\small\item\em Enums the section by keys. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a3bd747ddffa89d0260d589ede0518b86}{Get\+Setting}} (string section\+Name, string setting\+Name)
+\begin{DoxyCompactList}\small\item\em Returns the value by key and section. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_abb76af2dd7efd7e4589709d2bc69ef95}{Save}} ()
+\begin{DoxyCompactList}\small\item\em Saves the file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a01c7ca35cc6323456ae7a0bff176ea81}{Save\+Settings}} (string new\+File\+Path)
+\begin{DoxyCompactList}\small\item\em Saves the file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a0cdddab162161355886b99215c8a0d51}{Set\+Setting}} (string section\+Name, string setting\+Name, string value)
+\begin{DoxyCompactList}\small\item\em Sets the value by keys. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a8a6f5e171cc729b9ffa3466fc4f11b6c}{Contains\+Setting}} (string section\+Name, string setting\+Name)
+\begin{DoxyCompactList}\small\item\em Checks if a key is contained in the ini. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a996aa6c597d52a5e3cbd40cef1e7b381}{Contains\+Value}} (string value\+Name)
+\begin{DoxyCompactList}\small\item\em Checks if the value exists. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a5cd397eb978d0ba1837c84b908554598}{Name}}
+\begin{DoxyCompactList}\small\item\em Returns the name of the ini. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+string \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_af37c785f57abdee7714a86ad5c99bada}{Ini\+Path}} =\%comment\%\char`\"{}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the path. \end{DoxyCompactList}\item 
+string \mbox{[}$\,$\mbox{]} \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser_a788f857e14a3ddea85abde9a8bb4e7cd}{Sections}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets Section names. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handles ini file. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a3356f9debddd4725729351af23441509}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a3356f9debddd4725729351af23441509}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!IniParser@{IniParser}}
+\index{IniParser@{IniParser}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{IniParser()}{IniParser()}}
+{\footnotesize\ttfamily O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Ini\+Parser (\begin{DoxyParamCaption}\item[{string}]{ini\+Path }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_ini_parser}{Ini\+Parser}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em ini\+Path} & Path.\\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em File\+Not\+Found\+Exception} & Ex.\\
+\hline
+\end{DoxyExceptions}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a65d6a0da20cd1d220a72584d79e7ad33}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a65d6a0da20cd1d220a72584d79e7ad33}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!AddSetting@{AddSetting}}
+\index{AddSetting@{AddSetting}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{AddSetting()}{AddSetting()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Add\+Setting (\begin{DoxyParamCaption}\item[{string}]{section\+Name,  }\item[{string}]{setting\+Name }\end{DoxyParamCaption})}
+
+
+
+Adds a setting. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em section\+Name} & Section.\\
+\hline
+{\em setting\+Name} & Key.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a3bb2da99a04a530a7577fae8bc7ec786}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a3bb2da99a04a530a7577fae8bc7ec786}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!AddSetting@{AddSetting}}
+\index{AddSetting@{AddSetting}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{AddSetting()}{AddSetting()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Add\+Setting (\begin{DoxyParamCaption}\item[{string}]{section\+Name,  }\item[{string}]{setting\+Name,  }\item[{string}]{setting\+Value }\end{DoxyParamCaption})}
+
+
+
+Adds a setting. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em section\+Name} & Section.\\
+\hline
+{\em setting\+Name} & Key.\\
+\hline
+{\em setting\+Value} & Value.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a8a6f5e171cc729b9ffa3466fc4f11b6c}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a8a6f5e171cc729b9ffa3466fc4f11b6c}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!ContainsSetting@{ContainsSetting}}
+\index{ContainsSetting@{ContainsSetting}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{ContainsSetting()}{ContainsSetting()}}
+{\footnotesize\ttfamily bool O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Contains\+Setting (\begin{DoxyParamCaption}\item[{string}]{section\+Name,  }\item[{string}]{setting\+Name }\end{DoxyParamCaption})}
+
+
+
+Checks if a key is contained in the ini. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em section\+Name} & Section.\\
+\hline
+{\em setting\+Name} & Key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bool.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a996aa6c597d52a5e3cbd40cef1e7b381}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a996aa6c597d52a5e3cbd40cef1e7b381}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!ContainsValue@{ContainsValue}}
+\index{ContainsValue@{ContainsValue}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{ContainsValue()}{ContainsValue()}}
+{\footnotesize\ttfamily bool O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Contains\+Value (\begin{DoxyParamCaption}\item[{string}]{value\+Name }\end{DoxyParamCaption})}
+
+
+
+Checks if the value exists. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em value\+Name} & Value.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Bool.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a6249600db795ab959effc30ad7a05dc7}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a6249600db795ab959effc30ad7a05dc7}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!Count@{Count}}
+\index{Count@{Count}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{Count()}{Count()}}
+{\footnotesize\ttfamily int O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Count (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Counts the sections. 
+
+\begin{DoxyReturn}{Returns}
+Number.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a789776fe8a8eb9ba0f705a5f450799fd}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a789776fe8a8eb9ba0f705a5f450799fd}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!DeleteSetting@{DeleteSetting}}
+\index{DeleteSetting@{DeleteSetting}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{DeleteSetting()}{DeleteSetting()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Delete\+Setting (\begin{DoxyParamCaption}\item[{string}]{section\+Name,  }\item[{string}]{setting\+Name }\end{DoxyParamCaption})}
+
+
+
+Deletes data by key. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em section\+Name} & Section.\\
+\hline
+{\em setting\+Name} & Key.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a0d07d9af2cb34c65805965760f9da3b2}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a0d07d9af2cb34c65805965760f9da3b2}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!EnumSection@{EnumSection}}
+\index{EnumSection@{EnumSection}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{EnumSection()}{EnumSection()}}
+{\footnotesize\ttfamily string \mbox{[}$\,$\mbox{]} O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Enum\+Section (\begin{DoxyParamCaption}\item[{string}]{section\+Name }\end{DoxyParamCaption})}
+
+
+
+Enums the section by keys. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em section\+Name} & Section.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Ret.
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a3bd747ddffa89d0260d589ede0518b86}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a3bd747ddffa89d0260d589ede0518b86}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!GetSetting@{GetSetting}}
+\index{GetSetting@{GetSetting}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{GetSetting()}{GetSetting()}}
+{\footnotesize\ttfamily string O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Get\+Setting (\begin{DoxyParamCaption}\item[{string}]{section\+Name,  }\item[{string}]{setting\+Name }\end{DoxyParamCaption})}
+
+
+
+Returns the value by key and section. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em section\+Name} & Section.\\
+\hline
+{\em setting\+Name} & Key.\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_abb76af2dd7efd7e4589709d2bc69ef95}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_abb76af2dd7efd7e4589709d2bc69ef95}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!Save@{Save}}
+\index{Save@{Save}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{Save()}{Save()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Save (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Saves the file. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a01c7ca35cc6323456ae7a0bff176ea81}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a01c7ca35cc6323456ae7a0bff176ea81}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!SaveSettings@{SaveSettings}}
+\index{SaveSettings@{SaveSettings}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{SaveSettings()}{SaveSettings()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Save\+Settings (\begin{DoxyParamCaption}\item[{string}]{new\+File\+Path }\end{DoxyParamCaption})}
+
+
+
+Saves the file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+File\+Path} & Path.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a0cdddab162161355886b99215c8a0d51}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a0cdddab162161355886b99215c8a0d51}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!SetSetting@{SetSetting}}
+\index{SetSetting@{SetSetting}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{SetSetting()}{SetSetting()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Set\+Setting (\begin{DoxyParamCaption}\item[{string}]{section\+Name,  }\item[{string}]{setting\+Name,  }\item[{string}]{value }\end{DoxyParamCaption})}
+
+
+
+Sets the value by keys. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em section\+Name} & Section\\
+\hline
+{\em setting\+Name} & Key.\\
+\hline
+{\em value} & Value.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a5cd397eb978d0ba1837c84b908554598}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a5cd397eb978d0ba1837c84b908554598}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!Name@{Name}}
+\index{Name@{Name}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily string O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Name}
+
+
+
+Returns the name of the ini. 
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_af37c785f57abdee7714a86ad5c99bada}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_af37c785f57abdee7714a86ad5c99bada}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!IniPath@{IniPath}}
+\index{IniPath@{IniPath}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{IniPath}{IniPath}}
+{\footnotesize\ttfamily string O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Ini\+Path =\%comment\%\char`\"{}\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the path. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_ini_parser_a788f857e14a3ddea85abde9a8bb4e7cd}\label{class_o_e_invaders_1_1_library_1_1_ini_parser_a788f857e14a3ddea85abde9a8bb4e7cd}} 
+\index{OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}!Sections@{Sections}}
+\index{Sections@{Sections}!OEInvaders.Library.IniParser@{OEInvaders.Library.IniParser}}
+\subsubsection{\texorpdfstring{Sections}{Sections}}
+{\footnotesize\ttfamily string \mbox{[}$\,$\mbox{]} O\+E\+Invaders.\+Library.\+Ini\+Parser.\+Sections\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets Section names. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+D/\+Documents/\+Visual Studio 2015/\+Projects/\+O\+E\+N\+I\+K\+\_\+\+P\+R\+O\+G4\+\_\+2019\+\_\+1\+\_\+\+A\+S4\+D\+C\+D\+\_\+\+N\+E\+P\+T\+U\+N/\+O\+E\+Invaders.\+Library/\mbox{\hyperlink{_ini_parser_8cs}{Ini\+Parser.\+cs}}\end{DoxyCompactItemize}

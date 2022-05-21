@@ -1,0 +1,364 @@
+\hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic}{}\section{O\+E\+Invaders.\+Logic.\+Game\+Logic Class Reference}
+\label{class_o_e_invaders_1_1_logic_1_1_game_logic}\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+
+
+Handles the main game logic, and rendering.  
+
+
+Inheritance diagram for O\+E\+Invaders.\+Logic.\+Game\+Logic\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_o_e_invaders_1_1_logic_1_1_game_logic}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a238d378cb79529c74d2c704dbfb85a6c}{Game\+Logic}} (string playername, \mbox{\hyperlink{namespace_o_e_invaders_1_1_library_ad161194088b9101570c071d1baa1d2c7}{Player\+Character}} chara, double pixels, Dispatcher disp)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic}{Game\+Logic}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a1c3170ab17c07442cefa33edc6e4f2f2}{Draw}} (Drawing\+Context context)
+\begin{DoxyCompactList}\small\item\em Draws the scene. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a79500c4c789914e1ae746717856e573c}{Pos\+Title\+Score}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a6a37cfbd564991f0714163bc72e3df31}{Pos\+Title\+Hi\+Score}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a276c8f3bed6d8894ccf2873cc8fdec56}{Pos\+Title\+Lives}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a8b1a55250f2db1c3d9244e03c2f4498f}{Pos\+Title\+Level}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a4ffe5a8bdabf0995075b3318edc34fe6}{Pos\+Text\+Level\+Start}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a681b19251ed1a2491dcfd0de6b8970f3}{Pos\+Text\+Game\+Over}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_ac1082bc2165eb7155c1b9033358ca3c8}{Pos\+Text\+Level\+Completed}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a1de1ef74d65b308a612255275e9e1033}{Pos\+Text\+Restart}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a1ac144e9aab3d1f0c95d96f649caefc6}{Pos\+Text\+Start\+New\+Level}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a31da7f74cec3da1423b78bef4c957da4}{Pos\+Value\+Score}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a5b415d90a7e37bf9acbd1d704862aea5}{Pos\+Value\+Hi\+Score}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_aa3773509cad278dd3c990da4f44e18d0}{Pos\+Value\+Lives}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a04dc31524c700102a8ceb99edca77116}{Pos\+Value\+Level}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_abfbdc45a3ffc61f7ee6bb89517ed6eca}{Pos\+Game\+Won}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Point \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a02f5c59eece5dd043eaaa4ccdc27dbde}{Pos\+Booster}}
+\begin{DoxyCompactList}\small\item\em Represents a position. \end{DoxyCompactList}\item 
+static readonly Random \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_afb4dea52c559639ed872ddc72faafb2e}{Random\+Generator}} = new Random()
+\begin{DoxyCompactList}\small\item\em Random generator. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_text_storage}{Text\+Storage}} \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a649bf51cd8f5f517593fb0345281f7c9}{Formatted\+Storage}}
+\begin{DoxyCompactList}\small\item\em Formatted text storage. \end{DoxyCompactList}\item 
+static Rect \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a04dc7cee462b5fa707969abe0d5bf137}{Screen}}
+\begin{DoxyCompactList}\small\item\em Screen\textquotesingle{}s rectangle. \end{DoxyCompactList}\item 
+static Dispatcher \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a2601f892e14c04e58b31c62c6634c35e}{Game\+Dispatcher}}
+\begin{DoxyCompactList}\small\item\em Stores the instance of the current dispatcher. \end{DoxyCompactList}\item 
+static double \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a19e8500445e2e0d57efefd120452df7f}{Pixels\+Per\+Dip}}
+\begin{DoxyCompactList}\small\item\em Stores the current D\+PI amount. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static Size \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_ab40522da929d33c56ee807a1f4684130}{Pixel\+Size}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the pixel size. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level}{Level}} \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a4c3e508d67e5db33e093db266180203f}{Level}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the current level handler. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic_a1c36b6c1080b6f8342251e63724b90c0}{Hi\+Score}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the hiscore. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handles the main game logic, and rendering. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a238d378cb79529c74d2c704dbfb85a6c}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a238d378cb79529c74d2c704dbfb85a6c}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!GameLogic@{GameLogic}}
+\index{GameLogic@{GameLogic}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{GameLogic()}{GameLogic()}}
+{\footnotesize\ttfamily O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Game\+Logic (\begin{DoxyParamCaption}\item[{string}]{playername,  }\item[{\mbox{\hyperlink{namespace_o_e_invaders_1_1_library_ad161194088b9101570c071d1baa1d2c7}{Player\+Character}}}]{chara,  }\item[{double}]{pixels,  }\item[{Dispatcher}]{disp }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_game_logic}{Game\+Logic}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em playername} & Name.\\
+\hline
+{\em chara} & Character.\\
+\hline
+{\em pixels} & Pixels.\\
+\hline
+{\em disp} & Display.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a1c3170ab17c07442cefa33edc6e4f2f2}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a1c3170ab17c07442cefa33edc6e4f2f2}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!Draw@{Draw}}
+\index{Draw@{Draw}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Draw (\begin{DoxyParamCaption}\item[{Drawing\+Context}]{context }\end{DoxyParamCaption})}
+
+
+
+Draws the scene. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Context.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_o_e_invaders_1_1_logic_1_1_i_game_logic_a7afdd27b3cf620cd25c84e48a4d47ccd}{O\+E\+Invaders.\+Logic.\+I\+Game\+Logic}}.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a649bf51cd8f5f517593fb0345281f7c9}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a649bf51cd8f5f517593fb0345281f7c9}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!FormattedStorage@{FormattedStorage}}
+\index{FormattedStorage@{FormattedStorage}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{FormattedStorage}{FormattedStorage}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_text_storage}{Text\+Storage}} O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Formatted\+Storage\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Formatted text storage. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a2601f892e14c04e58b31c62c6634c35e}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a2601f892e14c04e58b31c62c6634c35e}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!GameDispatcher@{GameDispatcher}}
+\index{GameDispatcher@{GameDispatcher}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{GameDispatcher}{GameDispatcher}}
+{\footnotesize\ttfamily Dispatcher O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Game\+Dispatcher\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Stores the instance of the current dispatcher. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a19e8500445e2e0d57efefd120452df7f}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a19e8500445e2e0d57efefd120452df7f}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PixelsPerDip@{PixelsPerDip}}
+\index{PixelsPerDip@{PixelsPerDip}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PixelsPerDip}{PixelsPerDip}}
+{\footnotesize\ttfamily double O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pixels\+Per\+Dip\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Stores the current D\+PI amount. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a02f5c59eece5dd043eaaa4ccdc27dbde}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a02f5c59eece5dd043eaaa4ccdc27dbde}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosBooster@{PosBooster}}
+\index{PosBooster@{PosBooster}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosBooster}{PosBooster}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Booster\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_abfbdc45a3ffc61f7ee6bb89517ed6eca}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_abfbdc45a3ffc61f7ee6bb89517ed6eca}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosGameWon@{PosGameWon}}
+\index{PosGameWon@{PosGameWon}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosGameWon}{PosGameWon}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Game\+Won\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a681b19251ed1a2491dcfd0de6b8970f3}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a681b19251ed1a2491dcfd0de6b8970f3}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosTextGameOver@{PosTextGameOver}}
+\index{PosTextGameOver@{PosTextGameOver}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosTextGameOver}{PosTextGameOver}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Text\+Game\+Over\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_ac1082bc2165eb7155c1b9033358ca3c8}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_ac1082bc2165eb7155c1b9033358ca3c8}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosTextLevelCompleted@{PosTextLevelCompleted}}
+\index{PosTextLevelCompleted@{PosTextLevelCompleted}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosTextLevelCompleted}{PosTextLevelCompleted}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Text\+Level\+Completed\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a4ffe5a8bdabf0995075b3318edc34fe6}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a4ffe5a8bdabf0995075b3318edc34fe6}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosTextLevelStart@{PosTextLevelStart}}
+\index{PosTextLevelStart@{PosTextLevelStart}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosTextLevelStart}{PosTextLevelStart}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Text\+Level\+Start\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a1de1ef74d65b308a612255275e9e1033}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a1de1ef74d65b308a612255275e9e1033}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosTextRestart@{PosTextRestart}}
+\index{PosTextRestart@{PosTextRestart}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosTextRestart}{PosTextRestart}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Text\+Restart\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a1ac144e9aab3d1f0c95d96f649caefc6}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a1ac144e9aab3d1f0c95d96f649caefc6}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosTextStartNewLevel@{PosTextStartNewLevel}}
+\index{PosTextStartNewLevel@{PosTextStartNewLevel}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosTextStartNewLevel}{PosTextStartNewLevel}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Text\+Start\+New\+Level\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a6a37cfbd564991f0714163bc72e3df31}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a6a37cfbd564991f0714163bc72e3df31}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosTitleHiScore@{PosTitleHiScore}}
+\index{PosTitleHiScore@{PosTitleHiScore}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosTitleHiScore}{PosTitleHiScore}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Title\+Hi\+Score\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a8b1a55250f2db1c3d9244e03c2f4498f}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a8b1a55250f2db1c3d9244e03c2f4498f}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosTitleLevel@{PosTitleLevel}}
+\index{PosTitleLevel@{PosTitleLevel}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosTitleLevel}{PosTitleLevel}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Title\+Level\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a276c8f3bed6d8894ccf2873cc8fdec56}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a276c8f3bed6d8894ccf2873cc8fdec56}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosTitleLives@{PosTitleLives}}
+\index{PosTitleLives@{PosTitleLives}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosTitleLives}{PosTitleLives}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Title\+Lives\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a79500c4c789914e1ae746717856e573c}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a79500c4c789914e1ae746717856e573c}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosTitleScore@{PosTitleScore}}
+\index{PosTitleScore@{PosTitleScore}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosTitleScore}{PosTitleScore}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Title\+Score\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a5b415d90a7e37bf9acbd1d704862aea5}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a5b415d90a7e37bf9acbd1d704862aea5}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosValueHiScore@{PosValueHiScore}}
+\index{PosValueHiScore@{PosValueHiScore}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosValueHiScore}{PosValueHiScore}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Value\+Hi\+Score\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a04dc31524c700102a8ceb99edca77116}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a04dc31524c700102a8ceb99edca77116}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosValueLevel@{PosValueLevel}}
+\index{PosValueLevel@{PosValueLevel}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosValueLevel}{PosValueLevel}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Value\+Level\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_aa3773509cad278dd3c990da4f44e18d0}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_aa3773509cad278dd3c990da4f44e18d0}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosValueLives@{PosValueLives}}
+\index{PosValueLives@{PosValueLives}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosValueLives}{PosValueLives}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Value\+Lives\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a31da7f74cec3da1423b78bef4c957da4}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a31da7f74cec3da1423b78bef4c957da4}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PosValueScore@{PosValueScore}}
+\index{PosValueScore@{PosValueScore}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PosValueScore}{PosValueScore}}
+{\footnotesize\ttfamily readonly Point O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pos\+Value\+Score\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Represents a position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_afb4dea52c559639ed872ddc72faafb2e}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_afb4dea52c559639ed872ddc72faafb2e}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!RandomGenerator@{RandomGenerator}}
+\index{RandomGenerator@{RandomGenerator}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{RandomGenerator}{RandomGenerator}}
+{\footnotesize\ttfamily readonly Random O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Random\+Generator = new Random()\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Random generator. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a04dc7cee462b5fa707969abe0d5bf137}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a04dc7cee462b5fa707969abe0d5bf137}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!Screen@{Screen}}
+\index{Screen@{Screen}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{Screen}{Screen}}
+{\footnotesize\ttfamily Rect O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Screen\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Screen\textquotesingle{}s rectangle. 
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a1c36b6c1080b6f8342251e63724b90c0}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a1c36b6c1080b6f8342251e63724b90c0}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!HiScore@{HiScore}}
+\index{HiScore@{HiScore}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{HiScore}{HiScore}}
+{\footnotesize\ttfamily int O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Hi\+Score\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the hiscore. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_a4c3e508d67e5db33e093db266180203f}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_a4c3e508d67e5db33e093db266180203f}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!Level@{Level}}
+\index{Level@{Level}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{Level}{Level}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level}{Level}} O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Level\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the current level handler. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_game_logic_ab40522da929d33c56ee807a1f4684130}\label{class_o_e_invaders_1_1_logic_1_1_game_logic_ab40522da929d33c56ee807a1f4684130}} 
+\index{OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}!PixelSize@{PixelSize}}
+\index{PixelSize@{PixelSize}!OEInvaders.Logic.GameLogic@{OEInvaders.Logic.GameLogic}}
+\subsubsection{\texorpdfstring{PixelSize}{PixelSize}}
+{\footnotesize\ttfamily Size O\+E\+Invaders.\+Logic.\+Game\+Logic.\+Pixel\+Size\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+Gets the pixel size. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+D/\+Documents/\+Visual Studio 2015/\+Projects/\+O\+E\+N\+I\+K\+\_\+\+P\+R\+O\+G4\+\_\+2019\+\_\+1\+\_\+\+A\+S4\+D\+C\+D\+\_\+\+N\+E\+P\+T\+U\+N/\+O\+E\+Invaders.\+Logic/\mbox{\hyperlink{_game_logic_8cs}{Game\+Logic.\+cs}}\end{DoxyCompactItemize}

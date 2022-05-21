@@ -1,0 +1,166 @@
+\hypertarget{class_o_e_invaders_1_1_library_1_1_player}{}\section{O\+E\+Invaders.\+Library.\+Player Class Reference}
+\label{class_o_e_invaders_1_1_library_1_1_player}\index{OEInvaders.Library.Player@{OEInvaders.Library.Player}}
+
+
+Represents a player type.  
+
+
+Inheritance diagram for O\+E\+Invaders.\+Library.\+Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_o_e_invaders_1_1_library_1_1_player}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_player_abf828a4deec8282e11c19a9e73b1877d}{Player}} (string name, \mbox{\hyperlink{namespace_o_e_invaders_1_1_library_ad161194088b9101570c071d1baa1d2c7}{Player\+Character}} chara, Point pos, bool isholder=false)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_player}{Player}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_player_a7dd8d15ddfdb152c2e0c3764a9b35bbc}{Set\+Position}} (double x, double y)
+\begin{DoxyCompactList}\small\item\em Sets the 2D position of the player. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+Bitmap\+Source \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_player_a0a27670a52fd48ae8d37ba2165f45e10}{Explosion}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the stored explosion effect. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_o_e_invaders_1_1_library_a31b94a15c65f6baa474008cdade6bdea}{Entity\+Status}} \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_player_ae50d2e9865b5ee97946a64140bb3d6e6}{Player\+Status}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the player status. \end{DoxyCompactList}\item 
+Bitmap\+Source \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_player_a4068aac358ca57638aab85043bab4bcb}{Image}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the image of the player. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_player_a1112de3ad8f25e1dd820b65214b9541b}{Rotation}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+Point \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_player_af6e547cfe36cefe3603d1fd22a87d4d1}{Position}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or Sets the position. \end{DoxyCompactList}\item 
+Rect \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_player_a3b7845a85b40d46cde14117fd6f04d9f}{Bounds}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or Sets the Rectangle position. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_player_ae0581379a87561b9acd51df3ca815651}{Name}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the name of the player. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Represents a player type. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_player_abf828a4deec8282e11c19a9e73b1877d}\label{class_o_e_invaders_1_1_library_1_1_player_abf828a4deec8282e11c19a9e73b1877d}} 
+\index{OEInvaders.Library.Player@{OEInvaders.Library.Player}!Player@{Player}}
+\index{Player@{Player}!OEInvaders.Library.Player@{OEInvaders.Library.Player}}
+\subsubsection{\texorpdfstring{Player()}{Player()}}
+{\footnotesize\ttfamily O\+E\+Invaders.\+Library.\+Player.\+Player (\begin{DoxyParamCaption}\item[{string}]{name,  }\item[{\mbox{\hyperlink{namespace_o_e_invaders_1_1_library_ad161194088b9101570c071d1baa1d2c7}{Player\+Character}}}]{chara,  }\item[{Point}]{pos,  }\item[{bool}]{isholder = {\ttfamily false} }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_player}{Player}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the player.\\
+\hline
+{\em chara} & The player type.\\
+\hline
+{\em img} & The image of the player.\\
+\hline
+{\em pos} & Init position.\\
+\hline
+{\em isholder} & Specifies if this image is a player health bar.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_player_a7dd8d15ddfdb152c2e0c3764a9b35bbc}\label{class_o_e_invaders_1_1_library_1_1_player_a7dd8d15ddfdb152c2e0c3764a9b35bbc}} 
+\index{OEInvaders.Library.Player@{OEInvaders.Library.Player}!SetPosition@{SetPosition}}
+\index{SetPosition@{SetPosition}!OEInvaders.Library.Player@{OEInvaders.Library.Player}}
+\subsubsection{\texorpdfstring{SetPosition()}{SetPosition()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Library.\+Player.\+Set\+Position (\begin{DoxyParamCaption}\item[{double}]{x,  }\item[{double}]{y }\end{DoxyParamCaption})}
+
+
+
+Sets the 2D position of the player. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & X coordinate.\\
+\hline
+{\em y} & Y coordinate.\\
+\hline
+\end{DoxyParams}
+
+
+Implements \mbox{\hyperlink{interface_o_e_invaders_1_1_library_1_1_i_entity_ae2cf61539ba662a6793fef01abcad2ef}{O\+E\+Invaders.\+Library.\+I\+Entity}}.
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_player_a3b7845a85b40d46cde14117fd6f04d9f}\label{class_o_e_invaders_1_1_library_1_1_player_a3b7845a85b40d46cde14117fd6f04d9f}} 
+\index{OEInvaders.Library.Player@{OEInvaders.Library.Player}!Bounds@{Bounds}}
+\index{Bounds@{Bounds}!OEInvaders.Library.Player@{OEInvaders.Library.Player}}
+\subsubsection{\texorpdfstring{Bounds}{Bounds}}
+{\footnotesize\ttfamily Rect O\+E\+Invaders.\+Library.\+Player.\+Bounds\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or Sets the Rectangle position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_player_a0a27670a52fd48ae8d37ba2165f45e10}\label{class_o_e_invaders_1_1_library_1_1_player_a0a27670a52fd48ae8d37ba2165f45e10}} 
+\index{OEInvaders.Library.Player@{OEInvaders.Library.Player}!Explosion@{Explosion}}
+\index{Explosion@{Explosion}!OEInvaders.Library.Player@{OEInvaders.Library.Player}}
+\subsubsection{\texorpdfstring{Explosion}{Explosion}}
+{\footnotesize\ttfamily Bitmap\+Source O\+E\+Invaders.\+Library.\+Player.\+Explosion\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the stored explosion effect. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_player_a4068aac358ca57638aab85043bab4bcb}\label{class_o_e_invaders_1_1_library_1_1_player_a4068aac358ca57638aab85043bab4bcb}} 
+\index{OEInvaders.Library.Player@{OEInvaders.Library.Player}!Image@{Image}}
+\index{Image@{Image}!OEInvaders.Library.Player@{OEInvaders.Library.Player}}
+\subsubsection{\texorpdfstring{Image}{Image}}
+{\footnotesize\ttfamily Bitmap\+Source O\+E\+Invaders.\+Library.\+Player.\+Image\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the image of the player. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_player_ae0581379a87561b9acd51df3ca815651}\label{class_o_e_invaders_1_1_library_1_1_player_ae0581379a87561b9acd51df3ca815651}} 
+\index{OEInvaders.Library.Player@{OEInvaders.Library.Player}!Name@{Name}}
+\index{Name@{Name}!OEInvaders.Library.Player@{OEInvaders.Library.Player}}
+\subsubsection{\texorpdfstring{Name}{Name}}
+{\footnotesize\ttfamily string O\+E\+Invaders.\+Library.\+Player.\+Name\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the name of the player. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_player_ae50d2e9865b5ee97946a64140bb3d6e6}\label{class_o_e_invaders_1_1_library_1_1_player_ae50d2e9865b5ee97946a64140bb3d6e6}} 
+\index{OEInvaders.Library.Player@{OEInvaders.Library.Player}!PlayerStatus@{PlayerStatus}}
+\index{PlayerStatus@{PlayerStatus}!OEInvaders.Library.Player@{OEInvaders.Library.Player}}
+\subsubsection{\texorpdfstring{PlayerStatus}{PlayerStatus}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_o_e_invaders_1_1_library_a31b94a15c65f6baa474008cdade6bdea}{Entity\+Status}} O\+E\+Invaders.\+Library.\+Player.\+Player\+Status\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the player status. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_player_af6e547cfe36cefe3603d1fd22a87d4d1}\label{class_o_e_invaders_1_1_library_1_1_player_af6e547cfe36cefe3603d1fd22a87d4d1}} 
+\index{OEInvaders.Library.Player@{OEInvaders.Library.Player}!Position@{Position}}
+\index{Position@{Position}!OEInvaders.Library.Player@{OEInvaders.Library.Player}}
+\subsubsection{\texorpdfstring{Position}{Position}}
+{\footnotesize\ttfamily Point O\+E\+Invaders.\+Library.\+Player.\+Position\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or Sets the position. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_player_a1112de3ad8f25e1dd820b65214b9541b}\label{class_o_e_invaders_1_1_library_1_1_player_a1112de3ad8f25e1dd820b65214b9541b}} 
+\index{OEInvaders.Library.Player@{OEInvaders.Library.Player}!Rotation@{Rotation}}
+\index{Rotation@{Rotation}!OEInvaders.Library.Player@{OEInvaders.Library.Player}}
+\subsubsection{\texorpdfstring{Rotation}{Rotation}}
+{\footnotesize\ttfamily int O\+E\+Invaders.\+Library.\+Player.\+Rotation\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+D/\+Documents/\+Visual Studio 2015/\+Projects/\+O\+E\+N\+I\+K\+\_\+\+P\+R\+O\+G4\+\_\+2019\+\_\+1\+\_\+\+A\+S4\+D\+C\+D\+\_\+\+N\+E\+P\+T\+U\+N/\+O\+E\+Invaders.\+Library/\mbox{\hyperlink{_player_8cs}{Player.\+cs}}\end{DoxyCompactItemize}

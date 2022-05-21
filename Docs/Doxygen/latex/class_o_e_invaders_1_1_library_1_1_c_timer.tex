@@ -1,0 +1,177 @@
+\hypertarget{class_o_e_invaders_1_1_library_1_1_c_timer}{}\section{O\+E\+Invaders.\+Library.\+C\+Timer Class Reference}
+\label{class_o_e_invaders_1_1_library_1_1_c_timer}\index{OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}}
+
+
+Sorted list of timers.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer_a4a16830ba5bca4b347d77b292a1fa953}{Kill}} ()
+\begin{DoxyCompactList}\small\item\em Kills the timer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer_aa4c5642c3ca0c61bea0491b6b0ad9856}{Execute}} (bool changeexecutems=true)
+\begin{DoxyCompactList}\small\item\em Executes the action in safe block, or unsafe block. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer_aefcd9a330cc64166743bc0fa48a49f0d}{Start\+Watching}} ()
+\begin{DoxyCompactList}\small\item\em Starts the tick counter. \end{DoxyCompactList}\item 
+static void \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer_a81722581ec5aee35dadfff0ed6a1839e}{On\+Update}} ()
+\begin{DoxyCompactList}\small\item\em Runs on every frame. \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer}{C\+Timer}} \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer_ac03393ba60d4802cad27553e8d399559}{Set\+Timer}} (Action thefunc, uint executeafterms, uint executes=1, bool handleexception=true)
+\begin{DoxyCompactList}\small\item\em Use this method to create the Timer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+uint \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer_a80808297554224ddb4dc8fa9c72d9434}{Executes\+Left}}
+\begin{DoxyCompactList}\small\item\em Returns how many executes are left for the timer. Use 0 for infinite. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer_ac52011ba70e815c603b5b0c5a255721e}{Handle\+Exception}}
+\begin{DoxyCompactList}\small\item\em If the Timer should handle exceptions with a try-\/catch-\/finally. Can be changed dynamically. \end{DoxyCompactList}\item 
+Action \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer_a7bbc9467a211fe1cc9bf2974d00f693b}{Func}}
+\begin{DoxyCompactList}\small\item\em The Action getting called by the Timer. Can be changed dynamically. \end{DoxyCompactList}\item 
+uint \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer_a395275cb9c913d2b84a82953364b2c16}{Execute\+After\+Ms}}
+\begin{DoxyCompactList}\small\item\em After how many milliseconds (after the last execution) the timer should get called. Can be changed dynamically. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer_a4c86b1242a54306eaaef498f81c7969c}{Is\+Running}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets a value indicating whether if the timer is running. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Sorted list of timers. 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_c_timer_aa4c5642c3ca0c61bea0491b6b0ad9856}\label{class_o_e_invaders_1_1_library_1_1_c_timer_aa4c5642c3ca0c61bea0491b6b0ad9856}} 
+\index{OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}!Execute@{Execute}}
+\index{Execute@{Execute}!OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}}
+\subsubsection{\texorpdfstring{Execute()}{Execute()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Library.\+C\+Timer.\+Execute (\begin{DoxyParamCaption}\item[{bool}]{changeexecutems = {\ttfamily true} }\end{DoxyParamCaption})}
+
+
+
+Executes the action in safe block, or unsafe block. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em changeexecutems} & Changes the interval.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_c_timer_a4a16830ba5bca4b347d77b292a1fa953}\label{class_o_e_invaders_1_1_library_1_1_c_timer_a4a16830ba5bca4b347d77b292a1fa953}} 
+\index{OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}!Kill@{Kill}}
+\index{Kill@{Kill}!OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}}
+\subsubsection{\texorpdfstring{Kill()}{Kill()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Library.\+C\+Timer.\+Kill (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Kills the timer. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_c_timer_a81722581ec5aee35dadfff0ed6a1839e}\label{class_o_e_invaders_1_1_library_1_1_c_timer_a81722581ec5aee35dadfff0ed6a1839e}} 
+\index{OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}!OnUpdate@{OnUpdate}}
+\index{OnUpdate@{OnUpdate}!OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}}
+\subsubsection{\texorpdfstring{OnUpdate()}{OnUpdate()}}
+{\footnotesize\ttfamily static void O\+E\+Invaders.\+Library.\+C\+Timer.\+On\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Runs on every frame. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_c_timer_ac03393ba60d4802cad27553e8d399559}\label{class_o_e_invaders_1_1_library_1_1_c_timer_ac03393ba60d4802cad27553e8d399559}} 
+\index{OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}!SetTimer@{SetTimer}}
+\index{SetTimer@{SetTimer}!OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}}
+\subsubsection{\texorpdfstring{SetTimer()}{SetTimer()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer}{C\+Timer}} O\+E\+Invaders.\+Library.\+C\+Timer.\+Set\+Timer (\begin{DoxyParamCaption}\item[{Action}]{thefunc,  }\item[{uint}]{executeafterms,  }\item[{uint}]{executes = {\ttfamily 1},  }\item[{bool}]{handleexception = {\ttfamily true} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Use this method to create the Timer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em thefunc} & The Action which you want to get called.\\
+\hline
+{\em executeafterms} & Execute after milliseconds.\\
+\hline
+{\em executes} & Amount of executes. Use 0 for infinitely.\\
+\hline
+{\em handleexception} & If try-\/catch-\/finally should be used when calling the Action\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+\mbox{\hyperlink{class_o_e_invaders_1_1_library_1_1_c_timer}{C\+Timer}}
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_c_timer_aefcd9a330cc64166743bc0fa48a49f0d}\label{class_o_e_invaders_1_1_library_1_1_c_timer_aefcd9a330cc64166743bc0fa48a49f0d}} 
+\index{OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}!StartWatching@{StartWatching}}
+\index{StartWatching@{StartWatching}!OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}}
+\subsubsection{\texorpdfstring{StartWatching()}{StartWatching()}}
+{\footnotesize\ttfamily static void O\+E\+Invaders.\+Library.\+C\+Timer.\+Start\+Watching (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Starts the tick counter. 
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_c_timer_a395275cb9c913d2b84a82953364b2c16}\label{class_o_e_invaders_1_1_library_1_1_c_timer_a395275cb9c913d2b84a82953364b2c16}} 
+\index{OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}!ExecuteAfterMs@{ExecuteAfterMs}}
+\index{ExecuteAfterMs@{ExecuteAfterMs}!OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}}
+\subsubsection{\texorpdfstring{ExecuteAfterMs}{ExecuteAfterMs}}
+{\footnotesize\ttfamily uint O\+E\+Invaders.\+Library.\+C\+Timer.\+Execute\+After\+Ms}
+
+
+
+After how many milliseconds (after the last execution) the timer should get called. Can be changed dynamically. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_c_timer_a80808297554224ddb4dc8fa9c72d9434}\label{class_o_e_invaders_1_1_library_1_1_c_timer_a80808297554224ddb4dc8fa9c72d9434}} 
+\index{OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}!ExecutesLeft@{ExecutesLeft}}
+\index{ExecutesLeft@{ExecutesLeft}!OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}}
+\subsubsection{\texorpdfstring{ExecutesLeft}{ExecutesLeft}}
+{\footnotesize\ttfamily uint O\+E\+Invaders.\+Library.\+C\+Timer.\+Executes\+Left}
+
+
+
+Returns how many executes are left for the timer. Use 0 for infinite. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_c_timer_a7bbc9467a211fe1cc9bf2974d00f693b}\label{class_o_e_invaders_1_1_library_1_1_c_timer_a7bbc9467a211fe1cc9bf2974d00f693b}} 
+\index{OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}!Func@{Func}}
+\index{Func@{Func}!OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}}
+\subsubsection{\texorpdfstring{Func}{Func}}
+{\footnotesize\ttfamily Action O\+E\+Invaders.\+Library.\+C\+Timer.\+Func}
+
+
+
+The Action getting called by the Timer. Can be changed dynamically. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_c_timer_ac52011ba70e815c603b5b0c5a255721e}\label{class_o_e_invaders_1_1_library_1_1_c_timer_ac52011ba70e815c603b5b0c5a255721e}} 
+\index{OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}!HandleException@{HandleException}}
+\index{HandleException@{HandleException}!OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}}
+\subsubsection{\texorpdfstring{HandleException}{HandleException}}
+{\footnotesize\ttfamily bool O\+E\+Invaders.\+Library.\+C\+Timer.\+Handle\+Exception}
+
+
+
+If the Timer should handle exceptions with a try-\/catch-\/finally. Can be changed dynamically. 
+
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_library_1_1_c_timer_a4c86b1242a54306eaaef498f81c7969c}\label{class_o_e_invaders_1_1_library_1_1_c_timer_a4c86b1242a54306eaaef498f81c7969c}} 
+\index{OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}!IsRunning@{IsRunning}}
+\index{IsRunning@{IsRunning}!OEInvaders.Library.CTimer@{OEInvaders.Library.CTimer}}
+\subsubsection{\texorpdfstring{IsRunning}{IsRunning}}
+{\footnotesize\ttfamily bool O\+E\+Invaders.\+Library.\+C\+Timer.\+Is\+Running\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets a value indicating whether if the timer is running. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+D/\+Documents/\+Visual Studio 2015/\+Projects/\+O\+E\+N\+I\+K\+\_\+\+P\+R\+O\+G4\+\_\+2019\+\_\+1\+\_\+\+A\+S4\+D\+C\+D\+\_\+\+N\+E\+P\+T\+U\+N/\+O\+E\+Invaders.\+Library/\mbox{\hyperlink{_c_timer_8cs}{C\+Timer.\+cs}}\end{DoxyCompactItemize}

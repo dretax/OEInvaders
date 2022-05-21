@@ -1,0 +1,154 @@
+\hypertarget{class_o_e_invaders_1_1_logic_1_1_level}{}\section{O\+E\+Invaders.\+Logic.\+Level Class Reference}
+\label{class_o_e_invaders_1_1_logic_1_1_level}\index{OEInvaders.Logic.Level@{OEInvaders.Logic.Level}}
+
+
+This class is used to represent the level handling of the game.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level_a0c394590bc1cc859545777462a5be549}{Level}} (Size gamesize, Size pixelsize, string playername, \mbox{\hyperlink{namespace_o_e_invaders_1_1_library_ad161194088b9101570c071d1baa1d2c7}{Player\+Character}} character)
+\begin{DoxyCompactList}\small\item\em Initializes a new instance of the \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level}{Level}} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level_aedff2825d8a03a6a89c125b7e6768d04}{Press\+Key}} (Key key)
+\begin{DoxyCompactList}\small\item\em Runs when a key is pressed. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level_acb1b2317e86246597e12a98705c17659}{Release\+Key}} (Key key)
+\begin{DoxyCompactList}\small\item\em Runs when a key is released. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level_ab848f3b2e1584df5e565d86c69697345}{Draw}} (Drawing\+Context context)
+\begin{DoxyCompactList}\small\item\em Draws the scene. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level_a84adc76c83210d45ae4ffca2fe39619e}{Score}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets score. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level_aeb744ea1bd40375b396fb21139043ac0}{Lives}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the current lives. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level_a374f36718ffeced4c7cfc8c0b00ea9bd}{Current\+Level}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets currentlevel. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{namespace_o_e_invaders_1_1_logic_a3a33299067117ed9f3eb584100b34298}{Game\+Status}} \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level_ab1eb498acf715240a0ed0504e7219329}{Status}}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets or sets the current game status. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This class is used to represent the level handling of the game. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_level_a0c394590bc1cc859545777462a5be549}\label{class_o_e_invaders_1_1_logic_1_1_level_a0c394590bc1cc859545777462a5be549}} 
+\index{OEInvaders.Logic.Level@{OEInvaders.Logic.Level}!Level@{Level}}
+\index{Level@{Level}!OEInvaders.Logic.Level@{OEInvaders.Logic.Level}}
+\subsubsection{\texorpdfstring{Level()}{Level()}}
+{\footnotesize\ttfamily O\+E\+Invaders.\+Logic.\+Level.\+Level (\begin{DoxyParamCaption}\item[{Size}]{gamesize,  }\item[{Size}]{pixelsize,  }\item[{string}]{playername,  }\item[{\mbox{\hyperlink{namespace_o_e_invaders_1_1_library_ad161194088b9101570c071d1baa1d2c7}{Player\+Character}}}]{character }\end{DoxyParamCaption})}
+
+
+
+Initializes a new instance of the \mbox{\hyperlink{class_o_e_invaders_1_1_logic_1_1_level}{Level}} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em gamesize} & Screen size.\\
+\hline
+{\em pixelsize} & Pixel size.\\
+\hline
+{\em playername} & Name.\\
+\hline
+{\em character} & Character.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_level_ab848f3b2e1584df5e565d86c69697345}\label{class_o_e_invaders_1_1_logic_1_1_level_ab848f3b2e1584df5e565d86c69697345}} 
+\index{OEInvaders.Logic.Level@{OEInvaders.Logic.Level}!Draw@{Draw}}
+\index{Draw@{Draw}!OEInvaders.Logic.Level@{OEInvaders.Logic.Level}}
+\subsubsection{\texorpdfstring{Draw()}{Draw()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Logic.\+Level.\+Draw (\begin{DoxyParamCaption}\item[{Drawing\+Context}]{context }\end{DoxyParamCaption})}
+
+
+
+Draws the scene. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em context} & Context.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_level_aedff2825d8a03a6a89c125b7e6768d04}\label{class_o_e_invaders_1_1_logic_1_1_level_aedff2825d8a03a6a89c125b7e6768d04}} 
+\index{OEInvaders.Logic.Level@{OEInvaders.Logic.Level}!PressKey@{PressKey}}
+\index{PressKey@{PressKey}!OEInvaders.Logic.Level@{OEInvaders.Logic.Level}}
+\subsubsection{\texorpdfstring{PressKey()}{PressKey()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Logic.\+Level.\+Press\+Key (\begin{DoxyParamCaption}\item[{Key}]{key }\end{DoxyParamCaption})}
+
+
+
+Runs when a key is pressed. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key.\\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_level_acb1b2317e86246597e12a98705c17659}\label{class_o_e_invaders_1_1_logic_1_1_level_acb1b2317e86246597e12a98705c17659}} 
+\index{OEInvaders.Logic.Level@{OEInvaders.Logic.Level}!ReleaseKey@{ReleaseKey}}
+\index{ReleaseKey@{ReleaseKey}!OEInvaders.Logic.Level@{OEInvaders.Logic.Level}}
+\subsubsection{\texorpdfstring{ReleaseKey()}{ReleaseKey()}}
+{\footnotesize\ttfamily void O\+E\+Invaders.\+Logic.\+Level.\+Release\+Key (\begin{DoxyParamCaption}\item[{Key}]{key }\end{DoxyParamCaption})}
+
+
+
+Runs when a key is released. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em key} & Key.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_level_a374f36718ffeced4c7cfc8c0b00ea9bd}\label{class_o_e_invaders_1_1_logic_1_1_level_a374f36718ffeced4c7cfc8c0b00ea9bd}} 
+\index{OEInvaders.Logic.Level@{OEInvaders.Logic.Level}!CurrentLevel@{CurrentLevel}}
+\index{CurrentLevel@{CurrentLevel}!OEInvaders.Logic.Level@{OEInvaders.Logic.Level}}
+\subsubsection{\texorpdfstring{CurrentLevel}{CurrentLevel}}
+{\footnotesize\ttfamily int O\+E\+Invaders.\+Logic.\+Level.\+Current\+Level\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets currentlevel. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_level_aeb744ea1bd40375b396fb21139043ac0}\label{class_o_e_invaders_1_1_logic_1_1_level_aeb744ea1bd40375b396fb21139043ac0}} 
+\index{OEInvaders.Logic.Level@{OEInvaders.Logic.Level}!Lives@{Lives}}
+\index{Lives@{Lives}!OEInvaders.Logic.Level@{OEInvaders.Logic.Level}}
+\subsubsection{\texorpdfstring{Lives}{Lives}}
+{\footnotesize\ttfamily int O\+E\+Invaders.\+Logic.\+Level.\+Lives\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets the current lives. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_level_a84adc76c83210d45ae4ffca2fe39619e}\label{class_o_e_invaders_1_1_logic_1_1_level_a84adc76c83210d45ae4ffca2fe39619e}} 
+\index{OEInvaders.Logic.Level@{OEInvaders.Logic.Level}!Score@{Score}}
+\index{Score@{Score}!OEInvaders.Logic.Level@{OEInvaders.Logic.Level}}
+\subsubsection{\texorpdfstring{Score}{Score}}
+{\footnotesize\ttfamily int O\+E\+Invaders.\+Logic.\+Level.\+Score\hspace{0.3cm}{\ttfamily [get]}}
+
+
+
+Gets score. 
+
+\mbox{\Hypertarget{class_o_e_invaders_1_1_logic_1_1_level_ab1eb498acf715240a0ed0504e7219329}\label{class_o_e_invaders_1_1_logic_1_1_level_ab1eb498acf715240a0ed0504e7219329}} 
+\index{OEInvaders.Logic.Level@{OEInvaders.Logic.Level}!Status@{Status}}
+\index{Status@{Status}!OEInvaders.Logic.Level@{OEInvaders.Logic.Level}}
+\subsubsection{\texorpdfstring{Status}{Status}}
+{\footnotesize\ttfamily \mbox{\hyperlink{namespace_o_e_invaders_1_1_logic_a3a33299067117ed9f3eb584100b34298}{Game\+Status}} O\+E\+Invaders.\+Logic.\+Level.\+Status\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}
+
+
+
+Gets or sets the current game status. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+C\+:/\+Users/\+D/\+Documents/\+Visual Studio 2015/\+Projects/\+O\+E\+N\+I\+K\+\_\+\+P\+R\+O\+G4\+\_\+2019\+\_\+1\+\_\+\+A\+S4\+D\+C\+D\+\_\+\+N\+E\+P\+T\+U\+N/\+O\+E\+Invaders.\+Logic/\mbox{\hyperlink{_level_8cs}{Level.\+cs}}\end{DoxyCompactItemize}
